@@ -1,0 +1,11 @@
+Ce que je veux:
+
+Je veux avoir un site qui ait un navbar sidebar ou topbar.
+Je veux 4 différentes sections: Acceuil: Juste une page d'acceuil, rien d'especial, un fond obscure pour ne pas être aggressif à l'oeuil. Photo de moi et un message de bonjour.
+                                Projets: Mes projets personnels, la plupart sur github, comme le neon button, navbar, etc... Lien direct lors de cliquer sur l'image vers mon répositoir.
+                                         On pourra avoir peut être un effet en m'aidant d'internet pour avoir des messages au dessus des images (overlay animation).
+                                À propos: Image de moi, un petit texte sur mon histoire. On pourra télécharger mon CV sur un bouton dont je pourrai donner un effet après.
+                                         On aura aussi des images des languages dont je connais.
+                                         On aura une timeline sur mon éducation.
+                                         On aura une autre timeline sur mon expérience.
+                                Contacter: Une section pour me contacter via e-mail. Je pourrai utiliser PHP pour créer cette section.

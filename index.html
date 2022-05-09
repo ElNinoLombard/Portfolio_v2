@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href = "css/main.css" rel = "stylesheet">
+    <script src="https://kit.fontawesome.com/ec7d358ea5.js" crossorigin="anonymous"></script>
+
+    <title>Maxime Lombard Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="liens">
+            <li class="lien active"><a href="#sec-acceuil">Acceuil</a></li>
+            <li class="lien"><a href="#projets">Projets</a></li>
+            <li class="lien"><a href="#sec-ap">À propos</a></li>
+            <li class="lien"><a href="#contacter">Contacter</a></li>
+        </ul>
+    </nav>
+
+    <section class="sec-acceuil active">
+        <h1 class="hero-header">Bonjour, je suis<br>Maxime Lombard González</h1>
+        <img src="/images/profile-pic1.jpg" alt="Profile Picture" class="image-acceuil">
+    </section>
+
+    <section class="projets">
+        <h1 class="projets-header">Quelques-uns de mes projets</h1>
+        <div class="container-projets">
+            <div class="carte-projets">
+                <img src="/images/projets/neon_button_project.jpg" alt="Neon Button Project" class="projet-img">
+                <div class="content-projets">
+                    <h1 class="titre-projet">Button Neon Reactif</h1>
+                    <p class="texte-projet">Button réactif donnant l'effet d'une brillance néon avec CSS</p>
+                    <div class="projet-button-groupe">
+                        <button class="projet-button github" onclick="window.location.href='https://github.com/ElNinoLombard/neon_glowing_button'">Github Repository</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carte-projets">
+                <img src="/images/projets/jabba_website_project.jpg" alt="Jabba the Hutt site" class="projet-img">
+                <div class="content-projets">
+                    <h1 class="titre-projet">Site Jabba Dynamique</h1>
+                    <p class="texte-projet">Site sur Jabba the Hutt dynamique: biographie, histoire.</p>
+                    <div class="projet-button-groupe">
+                        <button class="projet-button github" onclick="window.location.href='https://github.com/ElNinoLombard/jabba'">Github Repository</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carte-projets">
+                <img src="/images/projets/todo_list_project.jpg" alt="Neon Button Project" class="projet-img">
+                <div class="content-projets">
+                    <h1 class="titre-projet">Liste de tâches</h1>
+                    <p class="texte-projet">Une liste de tâches utilisant JS et CSS pour l'ajour et suppréssion de tâches</p>
+                    <div class="projet-button-groupe">
+                        <button class="projet-button github" onclick="window.location.href='https://github.com/ElNinoLombard/todo_list'">Github Repository</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-ap">
+        <div class="ap">
+            <div class="ap-img-container">
+                <img src="images/profile-pic2.jpg" alt="Profile Picture" class="ap-img">
+                <a href="/pdf/cv_maxime_lombard.pdf" download="cv_maxime_lombard"><button class="tc-cv">Télécharger CV</button></a>
+            </div>
+            <div>
+                <h1 class="ap-titre">À propos</h1>
+                <p class="ap-info">
+                    Je suis Maxime Lombard González. Jeune étudiant Franco-Méxicain de 21 ans, né au Méxique et arrivé en France pour poursuivre mes études.
+                    Ayant une mère Méxicaine et un père Français j'ai appris à parler le français et l'espagnol depuis l'âge de 3 ans, puis appris l'anglais à l'âge de 13 ans.
+                    Après avoir obtenu un Bac STI2D avec une mention Assez Bien au Lycée Franco-Méxicain au Méxique j'ai poursuivi une Licence en Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales à l'Université de Rennes 2.
+                    Je suis quelqu'un vraiment apassioné par la programmation, qui aime travailler en équipe et avec une réelle envie d'apprendre.
+                    Le fait d'avoir fait du Rugby pendant 3 ans a renforcé mon habilité de pouvoir établir des bons relations avec mes collègues et surtout lors de mener un projet ensembles.
+                    Je suis un personne sachant prioriser des différents sujets, ayant un sens de responsabilité présent, organisé et qui aime résoudre des problèmes.
+                    J'aime écrire, la musique, jouer des jeux-vidéos casuellement et compétitivement ainsi que la danse. 
+                    Intéressé par le frontend, j'aimerai travailler sur des projets avec des personnes positives.
+                </p>
+            </div>
+        </div>
+        <div class="sec-skills">
+            <h1 class="sec-header">Skills</h1>
+            <div class="container-skills">
+                <div class="carte-skills">
+                    <img src="images/logos/html.png" alt="HTML logo" class="skill-img">
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info">Langage appris à l'Université Rennes 2 en cours de Web et Base de Données.</p>
+                </div>
+                <div class="carte-skills">
+                    <img src="images/logos/css.png" alt="CSS logo" class="skill-img">
+                    <h1 class="skill-name">CSS</h1>
+                    <p class="skill-info">Langage appris à l'Université Rennes 2 en cours de Web et Base de Données.</p>
+                </div>
+                <div class="carte-skills">
+                    <img src="images/logos/js.png" alt="JavaScript logo" class="skill-img">
+                    <h1 class="skill-name">JavaScript</h1>
+                    <p class="skill-info">Langage appris en autonomie (toujours en cours).</p>
+                </div>
+                <div class="carte-skills">
+                    <img src="images/logos/php.png" alt="PHP logo" class="skill-img">
+                    <h1 class="skill-name">PHP</h1>
+                    <p class="skill-info">Langage appris à l'Université Rennes 2 en cours de Web Dynamique.</p>
+                </div>
+                <div class="carte-skills">
+                    <img src="images/logos/sql.png" alt="SQL logo" class="skill-img">
+                    <h1 class="skill-name">SQL</h1>
+                    <p class="skill-info">Langage appris à l'Université Rennes 2 en cours de Web et Base de Données.</p>
+                </div>
+                <div class="carte-skills">
+                    <img src="images/logos/python.png" alt="Python Logo" class="skill-img">
+                    <h1 class="skill-name">Python</h1>
+                    <p class="skill-info">Langage appris à l'Université Rennes 2 en cours de programmation objet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <h1 class="sec-header">Éducation et expérience</h1>
+            <div class="carte">
+                <div class="corps-carte">
+                    <h1 class="carte-titre">2022 - Présent: Story Verse</h1>
+                    <p class="carte-info">Construction des forums et site web officielle du serveur FiveM (modification du jeu GTAV) Story Verse ainsi qu'apprentissage de modification de UI à partir du langage LUA.</p>
+                </div>
+            </div>
+            <div class="carte">
+                <div class="corps-carte">
+                    <h1 class="carte-titre">2018 - 2022: Université Rennes 2</h1>
+                    <p class="carte-info">Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales.</p>
+                </div>
+            </div>
+            <div class="carte">
+                <div class="corps-carte">
+                    <h1 class="carte-titre">2021 - Présent: Udemy</h1>
+                    <p class="carte-info">The Complete JavaScript Course 2022. En autonomie.</p>
+                </div>
+            </div>
+            <div class="carte">
+                <div class="corps-carte">
+                    <h1 class="carte-titre">2015 - 2018: Lycée Franco-Méxicain</h1>
+                    <p class="carte-info">Bac STI2D avec une mention Assez Bien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-contacter">
+        <div class="contacter-container">
+            <h2 class="contacter-titre">Téléphone</h2>
+            <p class="contacter-info">+33 06 3641 8585</p>
+        </div>
+        <div class="contacter-container">
+            <h2 class="contacter-titre">Mail</h2>
+            <p class="contacter-info">maxime.lombard@live.com.mx</p>
+        </div>
+        <div class="contacter-container">
+            <h2 class="contacter-titre">LinkedIn : cliquez sur le logo: </h2>
+            <a href="https://www.linkedin.com/in/maxime-lombard-783bb1234/" id="logo"><i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <div class="mappe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30138.051616328536!2d-1.6651866946018743!3d48.11307940024227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede2fa7d69085%3A0x40ca5cd36e4ab30!2sRennes!5e0!3m2!1sfr!2sfr!4v1652007589785!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <script src = "js/app.js"></script>
+</body>
+</html>
